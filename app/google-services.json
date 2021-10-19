@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "520606661643",
+    "firebase_url": "https://ortho-consult-3d24c.firebaseio.com",
+    "project_id": "ortho-consult-3d24c",
+    "storage_bucket": "ortho-consult-3d24c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520606661643:android:91931223b86d2241c9db0e",
+        "android_client_info": {
+          "package_name": "com.gurgaonkneeandshoulderclinic.drjayantarora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520606661643-rgci9gb6km2fbcta78j33f4fdncpi17p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuWErA8XR6zEmCRXdNT3_J-8vXxgaAY-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520606661643-rgci9gb6km2fbcta78j33f4fdncpi17p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "520606661643-5coenp4qk7ackvbvl78tfr8s59g3v9gk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jayantarora.videoconsult"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520606661643:android:142fe27744ef31f1c9db0e",
+        "android_client_info": {
+          "package_name": "com.gurgaonspecialtyclinics.videodoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520606661643-0ea0r1cbftnuqm4esiepdnv2ip3875d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gurgaonspecialtyclinics.videodoc",
+            "certificate_hash": "2decde8ff586e57561da070aa82fa4c41ea08eea"
+          }
+        },
+        {
+          "client_id": "520606661643-htp88238150tokl2d5mp107jbpl05lrg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gurgaonspecialtyclinics.videodoc",
+            "certificate_hash": "81f6e0a359c68d585dd05cf6a3ff37d7566d12b4"
+          }
+        },
+        {
+          "client_id": "520606661643-rgci9gb6km2fbcta78j33f4fdncpi17p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuWErA8XR6zEmCRXdNT3_J-8vXxgaAY-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520606661643-rgci9gb6km2fbcta78j33f4fdncpi17p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "520606661643-5coenp4qk7ackvbvl78tfr8s59g3v9gk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jayantarora.videoconsult"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

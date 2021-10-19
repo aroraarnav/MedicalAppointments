@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dr Jayant Arora</string>
+    <string name="privacy_policy">By logging in, you accept our </string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
