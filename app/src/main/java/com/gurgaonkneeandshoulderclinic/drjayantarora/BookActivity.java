@@ -191,6 +191,16 @@ public class BookActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
         FirebaseDatabase.getInstance().getReference().child("Ortho Consult").child("Time Slots").child(getIntent().getStringExtra("day")).child(userTime).setValue("booked for " + getIntent().getStringExtra("day") + " " + getIntent().getStringExtra("date"));
+
+        String key = FirebaseDatabase.getInstance().getReference().child("Ortho Consult").child("Bookings").push().getKey();
+
+        FirebaseDatabase.getInstance().getReference().child("Ortho Consult").child("Bookings").child(key).child("Date").setValue(getIntent().getStringExtra("day") + " " + getIntent().getStringExtra("date"));
+        FirebaseDatabase.getInstance().getReference().child("Ortho Consult").child("Bookings").child(key).child("Mobile").setValue(getIntent().getStringExtra("number"));
+        FirebaseDatabase.getInstance().getReference().child("Ortho Consult").child("Bookings").child(key).child("Payment Status").setValue("Success");
+        FirebaseDatabase.getInstance().getReference().child("Ortho Consult").child("Bookings").child(key).child("Time").setValue(userTime);
+        FirebaseDatabase.getInstance().getReference().child("Ortho Consult").child("Bookings").child(key).child("Name").setValue(getIntent().getStringExtra("name"));
+
+
         Intent intent = new Intent(getApplicationContext(), SuccessActivity.class);
         intent.putExtra("name", getIntent().getStringExtra("name"));
         intent.putExtra("number", getIntent().getStringExtra("number"));

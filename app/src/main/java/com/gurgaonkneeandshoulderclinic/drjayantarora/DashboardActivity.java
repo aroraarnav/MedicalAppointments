@@ -115,13 +115,12 @@ public class DashboardActivity extends AppCompatActivity implements DatePickerDi
             // MIN
             Calendar min = Calendar.getInstance();
             min.setTime(finalDate);
-            min.add(Calendar.DATE, 1);
             Date minDate = min.getTime();
 
             // MAX
             Calendar max = Calendar.getInstance();
             max.setTime(finalDate);
-            max.add(Calendar.DATE, 7);
+            max.add(Calendar.DATE, 6);
             Date maxDate = max.getTime();
 
             long minLong = minDate.getTime();
